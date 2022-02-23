@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat Site Simple Clone Using CSS & HTML</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_137f5a28-b960-4963-b1fd-e91c60e436a9_200x.png?v=1640587883" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="offcanvas-title bg-dark" id="offcanvasNavbarLabel"><img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_137f5a28-b960-4963-b1fd-e91c60e436a9_200x.png?v=1640587883" alt=""></a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><p class="text-primary">Home</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><p class="text-primary">Feature</p></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <p class="text-primary">About</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Main-banner_new.jpg?v=1645185090" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AB1750_wbanner_aeb06726-6b4d-40dc-9f46-2d0ce87a9bf8_1512x.jpg?v=1645440174" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/BOB-Web_db63201b-7441-4fd3-ae66-5020c16a2c05_1512x.jpg?v=1645077525" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/cream_300x.png?v=1642405569" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">boAt Airdopes 131 - Wireless Earbuds</h5>
+                        <p class="card-text">Sleek. Comfortable. Stylish. And a Splash of Incredible Colours. Bring alive your favourite sounds with these true
+                        wireless earbuds.</p>
+                        <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-R333_300x.png?v=1641801662" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">boAt Rockerz 333</h5>
+                    <p class="card-text">When your taste in music is so unique, why should your audio wear be any different? Speak your unique style with Rockerz
+                    333-a bold and powerful wireless earphones.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/merucry-3_300x.png?v=1639400858" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">boAt Watch Mercury</h5>
+                        <p class="card-text">When we think smartwatch, we think smart performance, predictive alerts, and style that matches your vibe. Presenting,
+                    boAt Watch Mercury</p>
+                        <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-1_6b720b9d-47f9-45d4-92b4-575058fb993b_300x.png?v=1626875709" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">
+                    boAt Airdopes 141 </h5>
+                    <p class="card-text">Let the noise of the world drown as you jam to your rhythm with Airdopes 141. Equipped with 8mm drivers, these dope
+                    wireless earbuds make your playlist sound better with crystal clear audio quality and powerful bass. Experience seamless
+                    calling and be clearly heard with ENxTM Technology.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main3_477b0686-02b2-4289-9e53-d663dfb08e37_300x.png?v=1645016541" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                    boAt Rockerz 550 Sunburn Edition </h5>
+                                    <p class="card-text">When the best of boAt meets Asia’s biggest music festival, you are bound to have a blast! Meet the over-ear wireless
+                                    headset, boAtxSunburn Rockerz 550. The headphones come equipped with the latest Bluetooth v5.0 for instant wireless
+                                    connectivity.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+            </div>
+            <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_7aa8c6c2-054b-42d5-a701-1e0ac33549c1_300x.png?v=1645014290" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                    Airdopes 441 Sunburn Edition</h5>
+                                    <p class="card-text">Set the roof on fire as you groove with boAtxSunburn Airdopes 441. The IWP (Insta Wake N’ Pair) Technology makes it the
+                                    best earbuds for a seamless listening experience. Equipped with 6mm drivers and dipped in the fresh colours of Sunburn</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+        </footer>
+    </div>
+
+
+</body>
+</html>
